@@ -1,3 +1,4 @@
+/*
 body {
   background-color: #F7F7F7;
 }
@@ -7,14 +8,14 @@ body {
   display: flex;
   min-height: 4vh;
   margin-left: 50px;
-  /* align-items: center; */
+  
   
 }
 
 .logo img {
   height: 100px;
   width: 200px;
-  /* z-index: 9; */
+ 
 } 
 .level{
   height:20px;
@@ -116,14 +117,6 @@ body {
   scale: 1.1;
 }
 
-/* .page2.elem.dets{
-  height:60px;
-  border-radius: 50%;
-  width:70%;
-  z-index: 9;
-  position:absolute ;
-  background-color: blanchedalmond;
-} */
 video {
   object-fit: cover;
   overflow-clip-margin: content-box;
@@ -136,10 +129,6 @@ video {
   min-height: 120vh;
   width: 100%;
   background-color: #F7F7F7;
-  /* display: flex; */
-  /* align-items: center;
-justify-content: space-evenly; */
-  /* flex-wrap: wrap; */
 
 }
 
@@ -166,12 +155,11 @@ justify-content: space-evenly; */
 }
 
 .child {
-  /* object-fit: cover; */
+ 
   position: relative;
   height: 55vh;
   width: 40vw;
-  /* background-color: black; */
-  /* display: flex; */
+ 
   align-items: center;
   justify-content: center;
 }
@@ -196,7 +184,7 @@ justify-content: space-evenly; */
 }
 
 .head1 {
-  /* font-weight: 500; */
+  
   font-size: 1.7rem;
   width: 70%;
   margin-left: 10px;
@@ -256,9 +244,13 @@ justify-content: space-evenly; */
 }
 
 .info {
-  min-height: 120vh;
+  min-height: 80vh;
   margin-top: 100px;
   margin-left: 100px;
+}
+
+.info_lower{
+  margin-left:90px;
 }
 
 button {
@@ -283,7 +275,7 @@ button {
   font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
 }
 
-.info p {
+.info_lower p {
   margin-left: 420px;
 }
 
@@ -348,7 +340,7 @@ button {
   width: 500px;
   height: 400px;
   /* -webkit-mask-image: url(./splash.png);
-  -webkit-mask-size: contain; */
+ 
 
 }
 
@@ -389,7 +381,7 @@ button {
 .page6 {
   margin-left: 220px;
   width: 80%;
-  height: 300px;
+  height: 500px;
   margin-top: -150px;
 
 }
@@ -407,7 +399,7 @@ button {
 }
 
 span {
-  margin-left: 300px;
+  margin-left: 00px;
 }
 
 @media (max-width:600px) {
@@ -477,7 +469,7 @@ span {
   }
 
   .head1 {
-    /* font-weight: 500; */
+    
     font-size: 1.7rem;
     width: 100%;
     margin-left: 10px;
@@ -489,7 +481,7 @@ span {
   .head2 {
     margin-top: 10px;
     width: 100%;
-    /* margin-right: 75px; */
+
     font-size: 1rem;
     font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
     font-weight: 400;
@@ -521,12 +513,12 @@ span {
   .child {
     margin-left: -120px;
     margin-top: 200px;
-    /* object-fit: cover; */
+   
     position: relative;
     height: 55vh;
     width: 40vw;
     padding-top: 30px;
-    /* display: flex; */
+    
     align-items: center;
     justify-content: center;
   }
@@ -556,9 +548,19 @@ span {
   }
 
   .info {
-    min-height: 120vh;
-    /* margin-top: 100px;
-    margin-left: 100px; */
+    min-height: 30vh;
+   
+    margin-left: -07vw; 
+    font-size: 1rem;
+  }
+  .hh {
+    margin-left: 20vw;
+  }
+  .hh2{
+    margin-left: 10vw;
+  }
+  #l1{
+    margin-left: 4vw;
   }
 
   button {
@@ -566,7 +568,7 @@ span {
     border: 2px solid;
     border-radius: 4%;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 20px;
     color: white;
     height: 50px;
     width: 300px;
@@ -577,14 +579,13 @@ span {
     text-align: left;
     text-transform: uppercase;
     font-weight: 00;
-    /* line-height: 1; */
-    /* margin-left: 50px; */
-    font-size: 70px;
+  
+    font-size: 35px;
     font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
   }
 
-  .info p {
-    margin-left: 50px;
+  .info_lower p {
+    margin-left: 30px;
     font-size: 1.3rem;
   }
 
@@ -623,18 +624,816 @@ span {
 
   .page6 {
     margin-left: 50px;
-    width: 80%;
-    height: 300px;
+    width: 90%;
+    height: 330px;
     margin-top: -350px;
   }
 
   .page6 h2 {
+    font-size: 1rem;
     color: grey;
     text-align: left;
-    margin-right: 200px;
+    margin-left: 30px;
   }
 
   .appreciation {
+   
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  span {
+    margin-left: 00px;
+  }
+
+}
+*/
+
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+  background-color: #F7F7F7;
+}
+
+.navbar {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 4vh;
+  margin-left: 50px;
+  /* align-items: center; */
+  
+}
+
+.logo img {
+  height: 100px;
+  width: 200px;
+  /* z-index: 9; */
+} 
+.level{
+  height:20px;
+  margin-left:-70px;
+}
+.label{
+  font-size: 1.1rem;
+}
+.logo {
+  width: 30%;
+}
+
+.r {
+  font-size: 0.9rem;
+  margin-left: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 80px;
+  width: 70%;
+}
+
+.cursor {
+  height: 150px;
+  width: 150px;
+  background-color: blanchedalmond;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 19;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+      -ms-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+}
+
+.page1 {
+  min-height: 100vh;
+  width: 95vw;
+  position: relative;
+  padding-top: 20.4vw;
+  padding: 0 1vw;
+}
+
+.heading {
+  width: 100%;
+}
+
+.page1 h1 {
+  font-size: 14.2vw;
+  text-transform: uppercase;
+  font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
+  line-height: 4vw;
+  letter-spacing: -8px;
+}
+
+.video-container {
+  height: 100vh;
+  width: 100%;
+  background-color: grey;
+  margin-top: 1vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+
+.video-container .play {
+  padding: 4vw 2vw;
+  background-color: black;
+  color: #fff;
+  font-size: 2vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: fixed;
+  border-radius: 50%;
+  opacity: 0;
+  scale: 0;
+}
+
+.page2 {
+  margin-top: -20px;
+  min-height: 80vh;
+  width: 95vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3vw 1vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
+.page2 .elem {
+  height: 100%;
+  width: 30%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page2 .elem img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  scale: 1.1;
+}
+
+/* .page2.elem.dets{
+  height:60px;
+  border-radius: 50%;
+  width:70%;
+  z-index: 9;
+  position:absolute ;
+  background-color: blanchedalmond;
+} */
+video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.page3 {
+  min-height: 120vh;
+  width: 100%;
+  background-color: #F7F7F7;
+  /* display: flex; */
+  /* align-items: center;
+justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+
+}
+
+.shop-section1 {
+  margin-left: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 400px;
+}
+
+.shop-section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: 200px;
+}
+
+.name {
+  margin-bottom: 150px;
+  margin-left: 70px;
+  margin-top: 170px;
+  font-size: 1.5rem;
+  font-family: "Helvetica Now Text";
+}
+
+.child {
+  /* object-fit: cover; */
+  position: relative;
+  height: 55vh;
+  width: 40vw;
+  /* background-color: black; */
+  /* display: flex; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.child img {
+  height: 100%;
+}
+
+.page4 {
+  min-height: 120vh;
+  width: 100%;
+  background-color: #F7F7F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.headings {
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.head1 {
+  /* font-weight: 500; */
+  font-size: 1.7rem;
+  width: 70%;
+  margin-left: 10px;
+  line-height: 4vw;
+  font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
+}
+
+.head2 {
+  margin-top: 10px;
+  width: 30%;
+  margin-right: 75px;
+  font-size: 1rem;
+  font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.head2 a {
+  color: #000000;
+  padding: 0px 0px 8px;
+}
+
+.aftervid {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-top: 20px;
+}
+
+.aftervid2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-top: 450px;
+}
+
+.left {
+  width: 50%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-left: 16px;
+}
+
+.right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 58px;
+}
+
+.line {
+  background-color: black;
+  height: 0.9px;
+  width: 97%;
+  margin-left: 10px;
+}
+
+.info {
+  min-height: 80vh;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.info_lower{
+  margin-left:90px;
+}
+
+button {
+  background-color: black;
+  border: 2px solid;
+  border-radius: 4%;
+  margin-top: 30px;
+  margin-left: 380px;
+  color: white;
+  height: 50px;
+  width: 300px;
+  font-size: 15px;
+
+}
+
+.info h1 {
+  text-transform: uppercase;
+  font-weight: 00;
+  line-height: 1;
+  margin-left: 50px;
+  font-size: 70px;
+  font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
+}
+
+.info_lower p {
+  margin-left: 420px;
+}
+
+.hh {
+  margin-left: 190px;
+}
+
+.hh2 {
+  margin-left: 90px;
+}
+
+.aftervid3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-top: 150px;
+}
+
+.left3 {
+  font-size: 2rem;
+  width: 80%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-left: 16px;
+  font-weight: 900;
+}
+
+.right3 {
+  font-size: 2rem;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 58px;
+}
+
+.page5 {
+  margin-top: -350px;
+  min-height: 120vh;
+}
+
+.left4 {
+  line-height: 1.3;
+  margin-top: 60px;
+  width: 37%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-left: 16px;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.left4 p {
+  font-size: 1rem;
+  color: gray;
+}
+
+.center {
+  margin-left: 150px;
+  width: 50%;
+}
+
+.center img {
+  width: 500px;
+  height: 400px;
+  /* -webkit-mask-image: url(./splash.png);
+  -webkit-mask-size: contain; */
+
+}
+
+.right4 {
+  line-height: 1.3;
+  margin-top: 60px;
+  font-size: 1rem;
+  list-style: none;
+  width: 37%;
+  text-align: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.right4 p {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.aftervid4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-top: 450px;
+}
+
+.copyrights {
+  margin-top: 70px;
+  font-size: 0.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  color: gray;
+}
+
+.page6 {
+  margin-left: 220px;
+  width: 80%;
+  height: 500px;
+  margin-top: -150px;
+
+}
+
+.page6 h2 {
+
+  color: grey;
+  text-align: center;
+  margin-right: 250px;
+}
+
+.appreciation {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+span {
+  margin-left: 00px;
+}
+
+@media (max-width:600px) {
+
+  .navbar {
+    margin-top: -0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 4vh;
+    margin-left: 0px;
+  }
+
+  .page1 h1 {
+    font-size: 15.4vw;
+    letter-spacing: -3px;
+    line-height: 4vw;
+  }
+
+  .page1 {
+    min-height: 40vh;
+    width: 95vw;
+    position: relative;
+    padding-top: 24.4vh;
+    padding: 0 3vw;
+  }
+
+  .video-container {
+    height: 25vh;
+    margin-top: 3vw;
+  }
+
+  .video-container .play {
+    padding: 7.5vw 5vw;
+    font-size: 5vw;
+    position: absolute;
+    top: 32%;
+    left: 38%;
+    border-radius: 50%;
+    opacity: 1;
+    scale: 1;
+    -webkit-transform: translate(-50, -50);
+        -ms-transform: translate(-50, -50);
+            transform: translate(-50, -50);
+  }
+
+  .page2 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5vw 2vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .page2 .elem {
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+    overflow: hidden;
+  }
+
+  .headings {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 200px;
+  }
+
+  .head1 {
+    /* font-weight: 500; */
+    font-size: 1.7rem;
+    width: 100%;
+    margin-left: 10px;
+    line-height: 9vw;
+    text-align: center;
+    font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
+  }
+
+  .head2 {
+    margin-top: 10px;
+    width: 100%;
+    /* margin-right: 75px; */
+    font-size: 1rem;
+    font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .head2 a {
+    color: #000000;
+    padding: 0px 0px 8px;
+  }
+
+  .shop-section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: -300px;
+  }
+
+  .shop-section2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: -400px;
+    padding-top: 20px;
+  }
+
+  .child {
+    margin-left: -120px;
+    margin-top: 200px;
+    /* object-fit: cover; */
+    position: relative;
+    height: 55vh;
+    width: 40vw;
+    padding-top: 30px;
+    /* display: flex; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  #child3 {
+    margin-left: -200px;
+  }
+
+  #child1 .name {
+    margin-left: 60px;
+  }
+
+  .child img {
+    height: 100%;
+  }
+
+  #child3 .name {
+    margin-left: 150px;
+  }
+
+  .name {
+    font-size: 3rem;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-top: 120px;
+    font-family: "Helvetica Now Text";
+  }
+
+  .info {
+    min-height: 30vh;
+    /* /* margin-top: 100px; */
+    margin-left: -07vw; 
+    font-size: 1rem;
+  }
+  .hh {
+    margin-left: 20vw;
+  }
+  .hh2{
+    margin-left: 10vw;
+  }
+  #l1{
+    margin-left: 4vw;
+  }
+
+  button {
+    background-color: black;
+    border: 2px solid;
+    border-radius: 4%;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    height: 50px;
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .info h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 00;
+    /* line-height: 1; */
+    /* margin-left: 50px; */
+    font-size: 35px;
+    font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
+  }
+
+  .info_lower p {
+    margin-left: 30px;
+    font-size: 1.3rem;
+  }
+
+  .page5 {
+    margin-top: -350px;
+    min-height: 120vh;
+  }
+
+  .center {
+    margin-left: 70px;
+    width: 100%;
+  }
+
+  .center img {
+    width: 100%;
+    height: 400px;
+
+  }
+
+  .left3 {
+    font-size: 1.6rem;
+    width: 97%;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-left: 16px;
+    font-weight: 900;
+  }
+
+  .right3 {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    width: 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    margin-right: 10px;
+  }
+
+  .page6 {
+    margin-left: 50px;
+    width: 90%;
+    height: 330px;
+    margin-top: -350px;
+  }
+
+  .page6 h2 {
+    font-size: 1rem;
+    color: grey;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .appreciation {
+    /* height:400px; */
     font-size: 1rem;
     line-height: 1.5;
   }
