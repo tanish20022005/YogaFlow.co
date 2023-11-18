@@ -1,4 +1,3 @@
-
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
@@ -8,6 +7,7 @@
 
 body {
   background-color: #F7F7F7;
+  overflow: hidden;
 }
 
 .navbar {
@@ -519,6 +519,10 @@ span {
     font-size: 15.4vw;
     letter-spacing: -3px;
     line-height: 4vw;
+  }
+
+  .r1 {
+    display: none;
   }
 
   .page1 {
